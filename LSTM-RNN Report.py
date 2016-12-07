@@ -262,7 +262,6 @@ test_max_features.plot(ax = ax8,title = "test_max_features")
 
 # In[3]:
 
-from __future__ import print_function
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 
@@ -476,7 +475,6 @@ f.close()
 
 # In[10]:
 
-from __future__ import print_function
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 
@@ -530,7 +528,6 @@ model.fit(X_train, y_train, batch_size=batch_size, nb_epoch=10,
 
 # In[11]:
 
-from __future__ import print_function
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 
